@@ -14,11 +14,6 @@ source, so as an incentive for me to spend the time and energy maintaining the
 bot, I have created some donation milestones so people can collectively fund
 the bot.
 
-## Disclaimer:
-  
-  The bombcrypto developers have not manifested themselves yet regarding the
-  use of bots. Do your own research and use the bot at your own risk. I am not
-  responsible for any future penalties.
 
 
 # Installation:
