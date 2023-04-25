@@ -1,18 +1,6 @@
   
 # About:
-  This is an open-source bot, the code is open for anyone to see, fork and
-update.
-  As the developer, I created this bot just for my personal use, I decided to
-publish to help other people and maybe get a few bucks in donation.  As the
-time went by, more and more people started opening issues, asking for help and
-suggesting changes.
-  I try to answer everyone, but lately it has been hard to keep  up. As the
-only donation I received so far amounts to only 1 BCOIN and the bot
-currently works perfectly for me. I am not feeling to motivated to spend the
-time it needs to maintain the bot. I would like to keep this bot free and open
-source, so as an incentive for me to spend the time and energy maintaining the
-bot, I have created some donation milestones so people can collectively fund
-the bot.
+A free sniper bot built to work with Pancakeswap. Honeypot/rug checker built in. Bot allows you to compete with other trading bots when buying a token on PancakeSwap. Its faster than traditional bots because it watches the txpool/mempool where transactions are still "pending" on the BSC network. It will watch for when liquidity is added as a pending transaction and immediately submit your order, so that hopefully you get in right after liquidity is added and before everyone else.
 
 
 
@@ -81,17 +69,5 @@ After it clicks in the heroes with the green bar to send them to work, it will l
 If tit finds one of the heroes, the bot checks if the home button is dark and the work button is not dark.
 If both these conditions are true, it clicks the home button.
 
-## Troubleshooting:
-#### I have not been able to fine adjust it, so here is some problems that may occur, and how to solve them:
 
-- The bot should distinguish between the dark, the clear and the gray home buttons.
-  - If the bot says that a hero is working or home, but he is not, that is because the bot is not detecting the dark home button, make the option "home: home_button_trashhold" smaller. You can also replace the image send-home.png in the targets folder.
-
-  - If the bot is trapped in an loop clicking in an clear home button, he thinks that the clear button is the dark button, make the option home: home_button_trashhold bigger.
-
-- The bot should detect the heroes you saved to the directory.
-  - If the bot clicks the wrong heroes, it thinks that another hero is the one you saved the screenshot. Make the option home: hero_trashhold bigger
-  - If it does not detect your heroes, make it smaller. You can also try replacing the screenshot with another part of the hero.
-
-  ----------------
 
