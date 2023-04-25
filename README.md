@@ -52,22 +52,9 @@ To run it use the command
 python index.py
 ```
 
-As soon as you start the bot it will send the heroes to work. For it to work the game window needs to be visible.
-It will constantly check if it needs to login or press the "new map" button. 
-From 15 to 15 min it will send all heroes to work again
 
 
-# Send home feature:
 
-## How to use it:
-Save a screenshot of the heroes you want to be sent home in the directory: /targets/heroes-to-send-home
-
-
-## How it should behave:
-It will automatically  load the screenshots of the heroes when starting up.
-After it clicks in the heroes with the green bar to send them to work, it will look if there is any of the heroes that are saved in the directory in the screen.
-If tit finds one of the heroes, the bot checks if the home button is dark and the work button is not dark.
-If both these conditions are true, it clicks the home button.
 
 
 
